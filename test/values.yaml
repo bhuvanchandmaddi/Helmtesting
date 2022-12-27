@@ -1,0 +1,14 @@
+favoriteDrink: coffee
+
+image:
+  name: nginx
+  tag: latest
+
+replicas: 2
+
+containerName: testnginx
+
+subchart:
+  favoriteDrink: parentchartpepsi
+
+
