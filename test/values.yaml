@@ -1,5 +1,5 @@
 favoriteDrink: coffee
-
+test: value
 image:
   name: nginx
   tag: latest
@@ -11,4 +11,26 @@ containerName: testnginx
 subchart:
   favoriteDrink: parentchartpepsi
 
+movie:
+  name:
+    isItGood: false
+
+food:
+  - name: biryani
+    rating: 4
+  - name: sambar
+    rating: 3
+  - name: curd
+    rating: 2   
+
+tourism_places:
+  - tirupathi
+  - chikmanglur
+  - Arunachalam
+  - srisailam
+
+drinks:
+  fav: thumpsup
+  seconFav: sprite
+  worstdrink: fanta
 
